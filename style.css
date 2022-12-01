@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    color: solid black;
+}
+
+nav {
+    position: fixed;
+    right: 5%;
+    top: 20%;
+}
+
+.link-page ul {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+.link-page ul li {
+    padding: 10px;
+    border: 3px solid black;
+}
+.categories  ul {
+    list-style: none;
+}
