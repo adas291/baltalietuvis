@@ -10,10 +10,10 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <header>
-        <h1>Baltalietuvio vertinimai</h1>
-    </header>
-    <nav>
+      <header>
+          <h1>Baltalietuvio vertinimai</h1>
+        </header>
+        <nav>
         <div class="link-page">
             <ul>
                 <li><a href="#">Geriausi</a></li>
@@ -26,6 +26,11 @@
             <input type="text" placeholder="Paieška">
             <button type="submmit">Ieškoti</button>
         </form>
+        <div class="warning">
+            <p>
+                Mobile not supported for now :(
+            </p>
+        </div>
         
         <div class="categories">
             <h2>Kategorijos:</h2>
@@ -41,17 +46,24 @@
 
     <div class="items-container">
         <div class="product">
-            <img width="300px" src="/imgs/braskinisMiau.png" alt="Braškinis miau">
+            <img  src="/imgs/braskinisMiau.png" alt="Braškinis miau">
             <div class="details">
                 <h2>1. Braškinis miau</h2>
                 <span class="tag"><br>Gėrimai</br></span>
                 <span class="tag">Pieno produktai</span>
                 <span class="date">2022-12-12</span>
                 <span class="manufacturer">Gamintojas: Milka</span>
-            </div>
-            <div class="awards">
-                <p class="score">10</p>
-                <p class="score-scale">/10</p>
+
+                <div class="awards">
+                    <div class="evaluation">
+                        <p class="score">10</p>
+                        <p class="score-scale">/10</p>
+                    </div>
+                    <div class="medals">
+                        <img  src="/imgs/Emulsiklis.svg" height="100"/>
+                        <img  src="/imgs/rekomenduoja.svg" height="100"/>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

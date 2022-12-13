@@ -82,23 +82,54 @@ nav {
     border-radius: var(--corner-radius);
 }
 
-.product img {
-    width: 250px;
-    border: var(--border-width) var(--accent-color);
-    border-radius: var(--corner-radius);
-}
+
 .product {
+
     padding: 10px;
     border: var(--border-width) var(--accent-color);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-left: 5%;
     width: 60%;
     position: relative;
-    top: 10%;
+}
+.awards {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-end;
+
+}
+
+.score {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.evaluation {
+    display: flex;
 }
 
 
+.items-container {
+    margin-top: 5%;
+}
+
+.warning {
+    display: none;
+}
+
+@media (max-width: 1150px)
+{
+    *  {
+        visibility: hidden;
+    }
+    .warning {
+        color: black;
+        display: inline;
+        visibility: visible;
+    }
+}
 
 input {
 
